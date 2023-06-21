@@ -15,8 +15,8 @@ function App() {
 
   return (
     <div>
-      <Select fun={setValue}/>
-      <Box color={val}/>
+      <Select fun={setValue}  val1 ="Red" val2 = "Green" val3 = "Yellow" val4 = "Blue"/>
+      <Box color={val} />
     </div>
 
   )
